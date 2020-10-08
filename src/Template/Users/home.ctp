@@ -1,0 +1,1 @@
+<h2>Beinvenido<?= $this->Html->link($current_user ['first_name'].' '.$current_user['apellido'],['controller'=>'Users','action'=>'view',$current_user['id']]);?></h2>
